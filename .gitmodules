@@ -1,0 +1,3 @@
+[submodule "component/BioMedEventEx"]
+	path = component/BioMedEventEx
+	url = https://github.com/PlusLabNLP/CORD19-BioMed-Event-Extraction.git

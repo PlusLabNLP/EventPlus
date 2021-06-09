@@ -1,0 +1,10 @@
+*stanford-corenlp*
+dataset
+# scripts/src/factslab
+scripts/.ipynb_checkpoints
+*__pycache__*
+*.hdf5
+# *.pth
+.idea
+*df.csv
+logs/

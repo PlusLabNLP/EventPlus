@@ -1,0 +1,182 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <title>Event Detection Pipeline</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/intro.js/2.9.3/introjs.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/intro.js@2.9.3/themes/introjs-modern.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/2.9.3/intro.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/2.9.3/intro.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js" type="text/javascript"></script>
+    <script src="https://d3js.org/d3-selection-multi.v1.js"></script>
+    <script type="text/javascript" src="{% static 'js/security.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/Tracking.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+</head>
+<body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#" id="header" data-intro="read this first">EventPlus</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                   <li class="nav-item active">
+                    <a id="btn-feature" class="hoverable nav-link" data-toggle="modal" data-target="#feature-modal">Feature & Task Help</a>
+                </li>
+{#              <li><a id="intro" title="powered by PLUS Lab"><span class="glyphicon glyphicon-info-sign"></span>&nbsp Intro</a></li>#}
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            </div>
+        </nav>
+    <div class="container">
+          <div class="left">
+
+              <div class="introduction">
+                <h2>Description</h2>
+                  <br>
+                 Powered by the state-of-the-art event-related knowledge extraction models, EventPlus extracts and integrates <strong>event triggers</strong>, <strong>corresponding arguments and roles</strong>, <strong>event duration</strong>, <strong>temporal relation</strong> between events, and etc.
+                 Please click on the "Feature &Task Help" button on the top right to know how to interpret the result!
+
+              </div>
+
+              <div class="sample">
+                  <div class="row" style="position: center">
+                      <div class="col-sm-3">
+                       <form>
+                          <label for="topic">Domain:</label>
+                          <select name="topic" id="topic" onchange="select_topic()">
+                              <option value="">---</option>
+                               <option value="news">news</option>
+                               <option value="bio">bio</option>
+                          </select>
+                          <br><br>
+                        </form>
+                      </div>
+
+                      <div class="col-sm-7">
+                          <div class="dropdown">
+                              <form >
+                                  <label for="examples">Enter text or:</label>
+                                  <select name="examples" id="examples" onchange="give_examples()">
+                                  </select>
+                                  <br><br>
+                              </form>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="input">
+                  <h3> Text Input</h3>
+                   <div class="form-group">
+                    <label for="analyze-text-input"></label>
+                    <textarea class="form-control" id="analyze-text-input" rows="5" maxlength="500"></textarea>
+                  </div>
+                    <br>
+                  <div class="col-md-10 text-center">
+                   <button id="analyze-text-btn" type="button" class="btn btn-primary" disabled>Analyze Text</button>
+                 </div>
+              </div>
+          </div>
+
+          <div class="right">
+              <div class="annotation" style="height: 50%">
+                  <h3>&nbsp;&nbsp; Annotation</h3>
+                  <br>
+                  <div style="height: 90%">
+                      <div class="panel" style="height: 73%;line-height: 2.5; overflow-y: scroll; border-bottom: 1px dashed hotpink;" id="show_annotation"></div>
+                      <div class="list" style="padding-top: 0; height: 20%; line-height: 2.5; overflow-y: scroll; border-bottom: 1px dashed olivedrab;" id="displayEvents"></div>
+                  </div>
+              </div>
+
+              <div class="temporal" style="height: 40%">
+                  <h3>&nbsp;&nbsp; Temporal Relation</h3>
+                  <div><svg width="570" height="300" id="graph"></svg></div>
+              </div>
+          </div>
+    </div>
+
+    <!-- Feature Modal -->
+    <div class="modal fade" id="feature-modal" tabindex="-1" role="dialog" aria-labelledby="feature-modal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="feature-modal-title">Features</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <ul>
+                    <h4>What do we extract?</h4>
+                    <p> When you input your text and click on the <button class="btn-group btn-group-sm" style="background-color: #2d6fae">Analyze Text</button> button, our system will automatically extract </p>
+                    <ul>
+                        <li style="padding: 10px;">All events and their corresponding arguments</li>
+                        <li style="padding: 10px;">The duration of detected events</li>
+                        <li style="padding: 10px;">The temporal relation among detected events</li>
+                    </ul>
+                    <hr>
+                    <h4>Notation Explanation</h4>
+                    <p>The <strong>Annotation</strong> panel contains the following</p>
+                    <table class="table">
+                            <thead>
+                                <tr><th>Style</th><th>Explanation</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><th><mark style='text-decoration-line: underline; text-decoration-style: wavy;'>entity</mark></th><td>Detected candidate entities from NER</td></tr>
+                                <tr><th><span style="font-style: italic; background: #f4c2c2; font-size: 0.8em; font-weight: bold; line-height: 1; border-radius: 0.35em; text-transform: uppercase; vertical-align: middle; margin-left: 0.5rem">NER label</span></th><td>The NER label for entities</td></tr>
+                                <tr><th><span style="background-image: linear-gradient(to right,#fb8072, #fdb462, #ffffb3, #b3de69, #8dd3c7, #80b1d3, #bebada); opacity: 100%; padding: 0.45em 0.6em; margin: 0 0.25em; line-height: 1; border-radius: 0.35em; box-decoration-break: clone; -webkit-box-decoration-break: clone"><strong>Events and Arguments</strong></span></th><td>Detected Events and their corresponding arguments will be marked as the same color.</td></tr>
+                                <tr><th><span style="font-style: italic; background: #f4db4b; font-size: 0.8em; font-weight: bold; line-height: 1; border-radius: 0.35em; text-transform: uppercase; vertical-align: middle; margin-left: 0.5rem";>label</span></th><td>Label for events and their arguments</td></tr>
+                            </tbody>
+                    </table>
+{#                    <hr>#}
+{#                    <h4>Sentence-level Feedback</h4>#}
+{#                        The colour of the sentences shows LinggleWrite’s opinion of the quality of each sentence. There are three types of quality.#}
+{#                        <div class="p-2">#}
+{#                            <div class="sen-good">This seems to be a good sentence.</div>#}
+{#                            <div class="sen-notok">This sentence could maybe be improved.</div>#}
+{#                            <div class="sen-bad">There are some problems in this sentence.</div>#}
+{#                        </div>#}
+{#                    <hr>#}
+{#                    <h4>Grammatical Error Detection</h4>#}
+{#                    <p>When you submit your essay or sentence, LinggleWrite will identify potential errors in sentences. There are three types of error given by LinggleWrite :<p>#}
+{#                    <ul>#}
+{#                        <li><span class="B-II text-nowrap">Insert Word</span> You should add some word in here.</li>#}
+{#                        <ul><li style="padding: 10px;">I am good <span class="B-II">Insert Word </span> this sport.</li></ul>#}
+{#                        <li><span class="B-D text-nowrap">Delete Word </span> You should delete this word.</li>#}
+{#                        <ul><li style="padding: 10px;">We dicuss <span class="B-D">about</span> this issue.</li></ul>#}
+{#                        <li><span class="B-R text-nowrap">Replace Word </span> You should replace this word.</li>#}
+{#                        <ul><li style="padding: 10px;">I finish school <span class="B-R">on</span> June.</ul>#}
+{#                    </ul>#}
+{#                    <hr>#}
+                </ul>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal"><!-- Place at bottom of page --></div>
+
+
+    <footer class="container-fluid text-center" style="background-color: darkseagreen;" >
+            <p style="font-family: 'Roboto Mono', monospace; opacity: 1">
+                <br>
+                <strong>USC ISI all rights reserved. Event Detection Pipeline</strong>
+            </p>
+    </footer>
+
+    <script type="text/javascript" src="{% static 'js/annotation.js' %}"></script>
+</body>
+<script type="text/javascript" src="{% static 'js/temporal.js' %}"></script>
+</html>

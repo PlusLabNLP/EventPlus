@@ -1,0 +1,143 @@
+.body{
+    font-family: 'Roboto Mono', monospace!important
+}
+.container {
+    width: 100%;
+    height: 850px;
+    margin: auto;
+    position: center;
+    padding: 2px;
+}
+
+.left {
+    position: center;
+    padding-top: 10%;
+    width: 50%;
+    height: 100%;
+    float: left;
+    border-right: 2px solid olivedrab;
+}
+
+.h2{
+    font-family: 'Roboto Mono', monospace!important;
+    padding-top: 2px;
+}
+
+.h3{
+    font-family: 'Roboto Mono', monospace!important;
+}
+
+.introduction{
+    height: 30%;
+    margin: auto;
+    padding: auto;
+    border-bottom: 1px dashed olivedrab;
+
+}
+
+.sample{
+    padding-top: 10%;
+    height: 20%;
+    /*border-bottom: 1px dashed olivedrab;*/
+
+}
+.input{
+    padding-top: 10px;
+    height: 50%;
+}
+
+
+.right {
+  margin-left: 50%;
+  height: 100%;
+  /*background: black;*/
+}
+
+.annotation{
+    /*padding-top: 20px;*/
+    height: 48.2%;
+    /*background: blueviolet;*/
+    /*border-bottom: 1px dashed olivedrab;*/
+    /*margin: auto;*/
+}
+
+.temporal{
+    height: 60%;
+    /*background: chocolate;*/
+    margin: auto;
+}
+
+.node{}
+
+.link{
+    stroke: #999; stroke-opacity: .6; stroke-width: 1px;
+}
+
+.svg{
+    height: 50%;
+    width: 100%;
+}
+
+.span{
+    font-size: 0.8em;
+    font-weight: bold;
+    line-height: 1;
+    border-radius: 0.35em;
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-left: 0.5rem
+}
+
+.mark{
+    padding: 0.45em 0.6em;
+    margin: 0 0.25em;
+    line-height: 1;
+    border-radius: 0.35em;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 2px;
+    font: 12px sans-serif;
+    /*background: lightsteelblue;*/
+    background: #f4db4b;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+/* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('loading.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading .modal {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}

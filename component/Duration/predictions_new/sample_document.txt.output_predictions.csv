@@ -1,0 +1,140 @@
+sent_pred_id1,sent_pred_id2,b1,e1,b2,e2,pred1_duration,pred2_duration,pred1_text,pred2_text,pred1_dict_idx,pred2_dict_idx
+sample_document.txt.output 1 4,sample_document.txt.output 1 8,0.0,1.0,0.13803808391094208,0.9737024754285812,4,3,Keep,launched,1,2
+sample_document.txt.output 1 4,sample_document.txt.output 1 13,0.0,0.7724528312683105,0.05132342875003815,1.0000000149011612,4,3,Keep,was,1,0
+sample_document.txt.output 1 8,sample_document.txt.output 1 13,0.0,0.6838009357452393,0.35098063945770264,1.0,3,3,launched,was,2,0
+sample_document.txt.output 1 13,sample_document.txt.output 2 4,0.0,0.7130671739578247,0.18261468410491943,1.0,3,4,was,was a glaring hole,0,37
+sample_document.txt.output 1 13,sample_document.txt.output 2 6,0.0,0.7729518413543701,0.3702593147754669,1.0000000298023224,3,3,was,considering,0,38
+sample_document.txt.output 1 13,sample_document.txt.output 2 11,0.0,0.700707197189331,0.0543573759496212,1.000000026077032,3,5,was,has,0,35
+sample_document.txt.output 1 13,sample_document.txt.output 2 20,0.0,0.7212046384811401,0.13458754122257233,1.0000000149011612,3,4,was,powered,0,36
+sample_document.txt.output 2 4,sample_document.txt.output 2 6,0.0,0.9296486973762512,0.3601958751678467,1.0,4,2,was a glaring hole,considering,37,38
+sample_document.txt.output 2 4,sample_document.txt.output 2 11,0.0,0.7920099496841431,0.04905122518539429,1.0,4,5,was a glaring hole,has,37,35
+sample_document.txt.output 2 4,sample_document.txt.output 2 20,0.0,0.8596251010894775,0.1568233072757721,1.0000000298023224,4,4,was a glaring hole,powered,37,36
+sample_document.txt.output 2 6,sample_document.txt.output 2 11,0.0,0.6839358806610107,0.056403446942567825,0.9999999888241291,2,5,considering,has,38,35
+sample_document.txt.output 2 6,sample_document.txt.output 2 20,0.0,0.6839030981063843,0.17683087289333344,0.9999999850988388,2,4,considering,powered,38,36
+sample_document.txt.output 2 11,sample_document.txt.output 2 20,0.0,0.9502631425857544,0.21423491835594177,0.9999999701976776,5,4,has,powered,35,36
+sample_document.txt.output 2 4,sample_document.txt.output 3 2,0.0,0.9577352404594421,0.501101553440094,1.0,4,3,was a glaring hole,settling,37,46
+sample_document.txt.output 2 4,sample_document.txt.output 3 9,0.0,0.8558970093727112,0.43859776854515076,0.9999999701976776,4,3,was a glaring hole,fill,37,47
+sample_document.txt.output 2 4,sample_document.txt.output 3 16,0.0,0.877559244632721,0.5173761248588562,1.0,4,3,was a glaring hole,took,37,45
+sample_document.txt.output 3 2,sample_document.txt.output 3 9,0.0,0.6840590834617615,0.5113111734390259,1.0,3,3,settling,fill,46,47
+sample_document.txt.output 3 2,sample_document.txt.output 3 16,0.0,0.6840259432792664,0.5810586810112,1.0,3,3,settling,took,46,45
+sample_document.txt.output 3 9,sample_document.txt.output 3 16,0.0,0.685236930847168,0.49983277916908264,1.0000000298023224,3,3,fill,took,47,45
+sample_document.txt.output 3 16,sample_document.txt.output 4 6,0.0,0.6839773058891296,0.40305525064468384,1.0,3,4,took,is n't simply just a...,45,52
+sample_document.txt.output 3 16,sample_document.txt.output 4 18,0.0,0.6840345859527588,0.41691896319389343,0.9999999701976776,3,4,took,construct,45,48
+sample_document.txt.output 3 16,sample_document.txt.output 4 27,0.0,0.6845037341117859,0.5763155221939087,1.0,3,3,took,code,45,49
+sample_document.txt.output 3 16,sample_document.txt.output 4 34,0.0,0.683936595916748,0.18342262506484985,1.0,3,4,took,well-designed,45,50
+sample_document.txt.output 3 16,sample_document.txt.output 4 37,0.0,0.6840626001358032,0.4612889587879181,1.0000000298023224,3,4,took,interface,45,51
+sample_document.txt.output 4 6,sample_document.txt.output 4 18,0.0,0.9326179623603821,0.2920173406600952,1.0,5,4,is n't simply just a...,construct,52,48
+sample_document.txt.output 4 6,sample_document.txt.output 4 27,0.0,0.8864150047302246,0.4714296758174896,0.9999999701976776,5,3,is n't simply just a...,code,52,49
+sample_document.txt.output 4 6,sample_document.txt.output 4 34,0.0,0.849277675151825,0.0972454696893692,1.0000000149011612,5,4,is n't simply just a...,well-designed,52,50
+sample_document.txt.output 4 6,sample_document.txt.output 4 37,0.0,0.8813707828521729,0.30983835458755493,1.0,5,4,is n't simply just a...,interface,52,51
+sample_document.txt.output 4 18,sample_document.txt.output 4 27,0.0,0.6798186302185059,0.5561827421188354,1.0,4,3,construct,code,48,49
+sample_document.txt.output 4 18,sample_document.txt.output 4 34,0.0,0.6860478520393372,0.1829047054052353,0.9999999850988388,4,4,construct,well-designed,48,50
+sample_document.txt.output 4 18,sample_document.txt.output 4 37,0.0,0.6830205917358398,0.41970348358154297,1.0,4,4,construct,interface,48,51
+sample_document.txt.output 4 27,sample_document.txt.output 4 34,0.0,0.6843998432159424,0.1286734640598297,1.0000000298023224,3,4,code,well-designed,49,50
+sample_document.txt.output 4 27,sample_document.txt.output 4 37,0.0,0.6840649247169495,0.3463345468044281,0.9999999701976776,3,4,code,interface,49,51
+sample_document.txt.output 4 34,sample_document.txt.output 4 37,0.0,0.8391029238700867,0.4007764160633087,1.0000000298023224,4,4,well-designed,interface,50,51
+sample_document.txt.output 4 18,sample_document.txt.output 5 3,0.0,0.6906058192253113,0.510737419128418,1.0,4,2,construct,log,48,54
+sample_document.txt.output 4 18,sample_document.txt.output 5 12,0.0,0.6840256452560425,0.2163439840078354,0.9999999850988388,4,4,construct,is also accessible from,48,53
+sample_document.txt.output 5 3,sample_document.txt.output 5 12,0.0,0.6839653849601746,0.15989656746387482,1.0000000149011612,2,3,log,is also accessible from,54,53
+sample_document.txt.output 5 12,sample_document.txt.output 6 4,0.0,0.7550225257873535,0.30186915397644043,1.0,3,3,is also accessible from,save,53,57
+sample_document.txt.output 5 12,sample_document.txt.output 6 7,0.0,0.8585458397865295,0.12740479409694672,0.9999999850988388,3,3,is also accessible from,working,53,58
+sample_document.txt.output 5 12,sample_document.txt.output 6 16,0.0,0.7172155380249023,0.46162840723991394,0.9999999701976776,3,3,is also accessible from,appear,53,55
+sample_document.txt.output 5 12,sample_document.txt.output 6 27,0.0,0.7371198534965515,0.36436906456947327,1.0000000298023224,3,3,is also accessible from,go,53,56
+sample_document.txt.output 6 4,sample_document.txt.output 6 7,0.0,0.7100658416748047,0.08045538514852524,1.0000000223517418,3,4,save,working,57,58
+sample_document.txt.output 6 4,sample_document.txt.output 6 16,0.0,0.6826831102371216,0.5125635266304016,1.0,3,3,save,appear,57,55
+sample_document.txt.output 6 4,sample_document.txt.output 6 27,0.0,0.6859408617019653,0.3779754340648651,0.9999999701976776,3,3,save,go,57,56
+sample_document.txt.output 6 7,sample_document.txt.output 6 16,0.0,0.6871302723884583,0.4787772297859192,1.0,4,3,working,appear,58,55
+sample_document.txt.output 6 7,sample_document.txt.output 6 27,0.0,0.6935256123542786,0.3999776840209961,1.0,4,3,working,go,58,56
+sample_document.txt.output 6 16,sample_document.txt.output 6 27,0.0,0.6840121150016785,0.3045830726623535,1.0,3,3,appear,go,55,56
+sample_document.txt.output 6 4,sample_document.txt.output 7 6,0.0,0.6840105652809143,0.09489507973194122,1.0000000149011612,3,5,save,be as progressive as,57,61
+sample_document.txt.output 6 4,sample_document.txt.output 7 14,0.0,0.6831211447715759,0.467685729265213,1.0000000298023224,3,4,save,Keep,57,59
+sample_document.txt.output 6 4,sample_document.txt.output 7 15,0.0,0.6830500960350037,0.518225908279419,1.0,3,3,save,makes,57,60
+sample_document.txt.output 7 6,sample_document.txt.output 7 14,0.0,0.9220438003540039,0.4376218914985657,1.0,5,3,be as progressive as,Keep,61,59
+sample_document.txt.output 7 6,sample_document.txt.output 7 15,0.0,0.9315750598907471,0.46772196888923645,1.0000000298023224,5,3,be as progressive as,makes,61,60
+sample_document.txt.output 7 14,sample_document.txt.output 7 15,0.0,0.692044734954834,0.37929949164390564,0.9999999701976776,3,3,Keep,makes,59,60
+sample_document.txt.output 7 6,sample_document.txt.output 8 2,0.0,0.9154918789863586,0.28879961371421814,0.9999999701976776,5,5,be as progressive as,Keep,61,62
+sample_document.txt.output 7 6,sample_document.txt.output 8 4,0.0,0.9897112846374512,0.15869227051734924,1.0000000298023224,5,3,be as progressive as,presented,61,63
+sample_document.txt.output 8 2,sample_document.txt.output 8 4,0.0,0.8971801996231079,0.1540617197751999,0.9999999850988388,4,3,Keep,presented,62,63
+sample_document.txt.output 8 4,sample_document.txt.output 9 0,0.0,0.6900947093963623,0.3567323088645935,1.0,3,2,presented,Swiping,63,64
+sample_document.txt.output 9 0,sample_document.txt.output 10 6,0.0,0.6837242841720581,0.49432411789894104,1.0000000298023224,2,3,Swiping,is,64,4
+sample_document.txt.output 9 0,sample_document.txt.output 10 12,0.0,0.6836143136024475,0.5079695582389832,1.0,2,3,Swiping,serves,64,3
+sample_document.txt.output 10 6,sample_document.txt.output 10 12,0.0,0.7457615733146667,0.34290096163749695,0.9999999701976776,3,3,is,serves,4,3
+sample_document.txt.output 10 6,sample_document.txt.output 11 2,0.0,0.8203876614570618,0.37390080094337463,1.0000000298023224,3,2,is,viewing,4,5
+sample_document.txt.output 10 6,sample_document.txt.output 11 7,0.0,0.7976948022842407,0.4297013580799103,1.0000000298023224,3,2,is,tapping,4,8
+sample_document.txt.output 10 6,sample_document.txt.output 11 21,0.0,0.6822758913040161,0.5711013674736023,1.0,3,3,is,allow,4,6
+sample_document.txt.output 10 6,sample_document.txt.output 11 24,0.0,0.6940674185752869,0.5128795504570007,1.0,3,2,is,edit,4,7
+sample_document.txt.output 11 2,sample_document.txt.output 11 7,0.0,0.6853763461112976,0.3671576678752899,0.9999999701976776,2,2,viewing,tapping,5,8
+sample_document.txt.output 11 2,sample_document.txt.output 11 21,0.0,0.6840323209762573,0.4991958439350128,1.0000000298023224,2,3,viewing,allow,5,6
+sample_document.txt.output 11 2,sample_document.txt.output 11 24,0.0,0.6839709877967834,0.5260088443756104,1.0,2,2,viewing,edit,5,7
+sample_document.txt.output 11 7,sample_document.txt.output 11 21,0.0,0.6840220093727112,0.4943852424621582,1.0,2,3,tapping,allow,8,6
+sample_document.txt.output 11 7,sample_document.txt.output 11 24,0.0,0.6841053366661072,0.547448456287384,1.0,2,2,tapping,edit,8,7
+sample_document.txt.output 11 21,sample_document.txt.output 11 24,0.0,0.6937133073806763,0.4302768409252167,0.9999999701976776,3,2,allow,edit,6,7
+sample_document.txt.output 11 24,sample_document.txt.output 12 4,0.0,0.6839393973350525,0.06531437486410141,1.0000000223517418,2,4,edit,is frictionless,7,9
+sample_document.txt.output 12 4,sample_document.txt.output 13 1,0.0,0.9507309794425964,0.5072044134140015,1.0,4,2,is frictionless,said,9,10
+sample_document.txt.output 12 4,sample_document.txt.output 13 6,0.0,0.9470503926277161,0.31241726875305176,1.0,4,4,is frictionless,going,9,11
+sample_document.txt.output 12 4,sample_document.txt.output 13 8,0.0,0.9083775877952576,0.22816072404384613,0.9999999850988388,4,5,is frictionless,conquer,9,12
+sample_document.txt.output 13 1,sample_document.txt.output 13 6,0.0,0.6839788556098938,0.38587796688079834,1.0,1,3,said,going,10,11
+sample_document.txt.output 13 1,sample_document.txt.output 13 8,0.0,0.6839320063591003,0.2720433473587036,1.0,1,5,said,conquer,10,12
+sample_document.txt.output 13 6,sample_document.txt.output 13 8,0.0,0.7015101909637451,0.1096869707107544,1.0,3,5,going,conquer,11,12
+sample_document.txt.output 13 1,sample_document.txt.output 14 3,0.0,0.6839405298233032,0.05423479527235031,0.9999999925494194,1,4,said,limited,10,15
+sample_document.txt.output 13 1,sample_document.txt.output 14 10,0.0,0.6839174628257751,0.37875548005104065,1.0000000298023224,1,3,said,is only choice,10,13
+sample_document.txt.output 13 1,sample_document.txt.output 14 16,0.0,0.6841313242912292,0.566217839717865,1.0,1,2,said,re-order,10,14
+sample_document.txt.output 14 3,sample_document.txt.output 14 10,0.0,0.9461380839347839,0.2102600783109665,0.9999999850988388,4,3,limited,is only choice,15,13
+sample_document.txt.output 14 3,sample_document.txt.output 14 16,0.0,0.87147057056427,0.4406900703907013,1.0000000298023224,4,2,limited,re-order,15,14
+sample_document.txt.output 14 10,sample_document.txt.output 14 16,0.0,0.6839569211006165,0.5454952120780945,1.0,3,2,is only choice,re-order,13,14
+sample_document.txt.output 14 3,sample_document.txt.output 15 5,0.0,0.9075720906257629,0.0648116022348404,1.0000000149011612,4,4,limited,limited,15,18
+sample_document.txt.output 14 3,sample_document.txt.output 15 7,0.0,0.9498403072357178,0.1724829077720642,1.0,4,3,limited,email,15,19
+sample_document.txt.output 14 3,sample_document.txt.output 15 10,0.0,0.9503321647644043,0.041584454476833344,1.0000000223517418,4,4,limited,+,15,16
+sample_document.txt.output 14 3,sample_document.txt.output 15 19,0.0,0.9352039098739624,0.09030032902956009,1.0000000074505806,4,4,limited,are pretty bare bones,15,17
+sample_document.txt.output 15 5,sample_document.txt.output 15 7,0.0,0.9644569158554077,0.1225115954875946,0.9999999701976776,5,3,limited,email,18,19
+sample_document.txt.output 15 5,sample_document.txt.output 15 10,0.0,0.953113853931427,0.03844350576400757,1.0,5,5,limited,+,18,16
+sample_document.txt.output 15 5,sample_document.txt.output 15 19,0.0,0.9396697878837585,0.09762614220380783,0.9999999925494194,5,4,limited,are pretty bare bones,18,17
+sample_document.txt.output 15 7,sample_document.txt.output 15 10,0.0,0.7169017791748047,0.04467618837952614,1.0000000037252903,3,5,email,+,19,16
+sample_document.txt.output 15 7,sample_document.txt.output 15 19,0.0,0.697232186794281,0.10923418402671814,0.9999999701976776,3,4,email,are pretty bare bones,19,17
+sample_document.txt.output 15 10,sample_document.txt.output 15 19,0.0,0.8779826164245605,0.2252863496541977,0.9999999850988388,5,4,+,are pretty bare bones,16,17
+sample_document.txt.output 15 7,sample_document.txt.output 16 5,0.0,0.6837590932846069,0.24296754598617554,1.0,3,5,email,'s more a function of,19,21
+sample_document.txt.output 15 7,sample_document.txt.output 16 9,0.0,0.696258544921875,0.034135013818740845,1.0000000298023224,3,5,email,being new,19,22
+sample_document.txt.output 15 7,sample_document.txt.output 16 14,0.0,0.7282299995422363,0.18339747190475464,1.0,3,3,email,thought,19,20
+sample_document.txt.output 16 5,sample_document.txt.output 16 9,0.0,0.9361432194709778,0.009372705593705177,0.9999999944120646,5,5,'s more a function of,being new,21,22
+sample_document.txt.output 16 5,sample_document.txt.output 16 14,0.0,0.9658018350601196,0.09411517530679703,0.9999999776482582,5,3,'s more a function of,thought,21,20
+sample_document.txt.output 16 9,sample_document.txt.output 16 14,0.0,0.9945769309997559,0.1910041868686676,1.0000000298023224,5,3,being new,thought,22,20
+sample_document.txt.output 16 5,sample_document.txt.output 17 5,0.0,0.9892053604125977,0.34116917848587036,1.0,5,3,'s more a function of,expect,21,24
+sample_document.txt.output 16 5,sample_document.txt.output 17 16,0.0,0.8584955930709839,0.4968762993812561,1.0,5,3,'s more a function of,turn,21,23
+sample_document.txt.output 17 5,sample_document.txt.output 17 16,0.0,0.6840579509735107,0.596712052822113,1.0,3,3,expect,turn,24,23
+sample_document.txt.output 17 5,sample_document.txt.output 18 2,0.0,0.6838942766189575,0.37872156500816345,0.9999999701976776,3,3,expect,'s easy,24,27
+sample_document.txt.output 17 5,sample_document.txt.output 18 4,0.0,0.683500349521637,0.4726015329360962,1.0,3,3,expect,foresee,24,29
+sample_document.txt.output 17 5,sample_document.txt.output 18 12,0.0,0.6841203570365906,0.5169060230255127,1.0,3,4,expect,be able,24,25
+sample_document.txt.output 17 5,sample_document.txt.output 18 14,0.0,0.6835182309150696,0.4986995458602905,1.0,3,2,expect,send,24,26
+sample_document.txt.output 17 5,sample_document.txt.output 18 24,0.0,0.6840111613273621,0.487669438123703,0.9999999701976776,3,5,expect,Keep,24,28
+sample_document.txt.output 18 2,sample_document.txt.output 18 4,0.0,0.8515514135360718,0.11147195100784302,1.0,3,3,'s easy,foresee,27,29
+sample_document.txt.output 18 2,sample_document.txt.output 18 12,0.0,0.7026408314704895,0.22022512555122375,1.0000000298023224,3,3,'s easy,be able,27,25
+sample_document.txt.output 18 2,sample_document.txt.output 18 14,0.0,0.8866195678710938,0.2856167256832123,0.9999999701976776,3,2,'s easy,send,27,26
+sample_document.txt.output 18 2,sample_document.txt.output 18 24,0.0,0.6909410953521729,0.27218326926231384,0.9999999701976776,3,4,'s easy,Keep,27,28
+sample_document.txt.output 18 4,sample_document.txt.output 18 12,0.0,0.6838480830192566,0.45529046654701233,1.0000000298023224,3,3,foresee,be able,29,25
+sample_document.txt.output 18 4,sample_document.txt.output 18 14,0.0,0.6918250322341919,0.4261224865913391,1.0,3,2,foresee,send,29,26
+sample_document.txt.output 18 4,sample_document.txt.output 18 24,0.0,0.6837725043296814,0.47620564699172974,1.0,3,4,foresee,Keep,29,28
+sample_document.txt.output 18 12,sample_document.txt.output 18 14,0.0,0.8177071809768677,0.30417773127555847,0.9999999701976776,3,2,be able,send,25,26
+sample_document.txt.output 18 12,sample_document.txt.output 18 24,0.0,0.6874300241470337,0.3504236936569214,1.0,3,4,be able,Keep,25,28
+sample_document.txt.output 18 14,sample_document.txt.output 18 24,0.0,0.684109628200531,0.5004119873046875,1.0,2,4,send,Keep,26,28
+sample_document.txt.output 18 4,sample_document.txt.output 19 3,0.0,0.6837170124053955,0.4653417468070984,1.0,3,4,foresee,Keep,29,33
+sample_document.txt.output 18 4,sample_document.txt.output 19 4,0.0,0.6908847689628601,0.12233449518680573,1.0000000149011612,3,4,foresee,incorporating,29,34
+sample_document.txt.output 18 4,sample_document.txt.output 19 16,0.0,0.6843301057815552,0.27154994010925293,1.0,3,4,foresee,making,29,30
+sample_document.txt.output 18 4,sample_document.txt.output 19 18,0.0,0.6841648817062378,0.1816791594028473,1.0000000298023224,3,4,foresee,easy,29,31
+sample_document.txt.output 18 4,sample_document.txt.output 19 25,0.0,0.6840089559555054,0.5898512005805969,1.0,3,3,foresee,turn,29,32
+sample_document.txt.output 19 3,sample_document.txt.output 19 4,0.0,0.9617072343826294,0.04219924658536911,0.9999999925494194,4,4,Keep,incorporating,33,34
+sample_document.txt.output 19 3,sample_document.txt.output 19 16,0.0,0.8306684494018555,0.15327058732509613,0.9999999850988388,4,4,Keep,making,33,30
+sample_document.txt.output 19 3,sample_document.txt.output 19 18,0.0,0.7975125312805176,0.0899055227637291,1.0000000223517418,4,4,Keep,easy,33,31
+sample_document.txt.output 19 3,sample_document.txt.output 19 25,0.0,0.7107610702514648,0.5094150304794312,1.0,4,3,Keep,turn,33,32
+sample_document.txt.output 19 4,sample_document.txt.output 19 16,0.0,0.6988226175308228,0.2813762128353119,0.9999999701976776,4,4,incorporating,making,34,30
+sample_document.txt.output 19 4,sample_document.txt.output 19 18,0.0,0.6935641765594482,0.23172226548194885,1.0000000298023224,4,4,incorporating,easy,34,31
+sample_document.txt.output 19 4,sample_document.txt.output 19 25,0.0,0.6826013922691345,0.5830544829368591,1.0,4,3,incorporating,turn,34,32
+sample_document.txt.output 19 16,sample_document.txt.output 19 18,0.0,0.7428528666496277,0.14456385374069214,1.0,4,4,making,easy,30,31
+sample_document.txt.output 19 16,sample_document.txt.output 19 25,0.0,0.6831708550453186,0.5511858463287354,1.0,4,3,making,turn,30,32
+sample_document.txt.output 19 18,sample_document.txt.output 19 25,0.0,0.7079769968986511,0.49346795678138733,1.0000000298023224,4,3,easy,turn,31,32
+sample_document.txt.output 19 25,sample_document.txt.output 20 2,0.0,0.6865158677101135,0.2685396373271942,0.9999999701976776,3,4,turn,scare,32,39
+sample_document.txt.output 20 2,sample_document.txt.output 21 4,0.0,0.6846446990966797,0.17420214414596558,1.0,4,5,scare,is not the reinvention of,39,41
+sample_document.txt.output 20 2,sample_document.txt.output 21 13,0.0,0.6843277812004089,0.006619105115532875,1.0000000093132257,4,5,scare,are,39,40
+sample_document.txt.output 21 4,sample_document.txt.output 21 13,0.0,0.8406634330749512,0.00875750184059143,1.0000000298023224,5,5,is not the reinvention of,are,41,40
+sample_document.txt.output 21 13,sample_document.txt.output 22 5,0.0,0.946634829044342,0.29387131333351135,1.0000000298023224,5,4,are,is a well-exectuted refinement,40,42
+sample_document.txt.output 22 5,sample_document.txt.output 23 1,0.0,0.9974538683891296,0.2463497370481491,0.9999999850988388,4,4,is a well-exectuted refinement,filling,42,43
+sample_document.txt.output 22 5,sample_document.txt.output 23 14,0.0,0.8326375484466553,0.4707905054092407,1.0,4,4,is a well-exectuted refinement,gives,42,44

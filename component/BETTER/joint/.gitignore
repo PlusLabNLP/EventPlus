@@ -1,0 +1,11 @@
+glove/*.txt
+logs/*
+run_jobs/*
+results_biaffine*.pkl
+*.log
+slurm*
+tmp/*
+exp_argus/*
+*.sh
+__pycache__
+worked_model_ace

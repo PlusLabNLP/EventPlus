@@ -1,0 +1,24 @@
+Before the arrival of Keep, which Google launched this week, there was no default note-taking app for Android.
+It was a glaring hole, considering that Apple's iPhone has built-in Notes and Reminders apps that can be powered by Siri.
+Instead of settling for a bare bones app to fill the void, the search giant took things one step further.
+Keep isn't simply just a place to bank whatever random half-thoughts come to mind: Users can construct to-do lists, stash photos, and color code your notes -- all in one well-designed and easy-to-use interface.
+The second you log anything into your phone, it is also accessible from a PC Web browser via Google Drive.
+Alternatively, you can save things while working on your computer, and it will instantly appear on your phone, ready for use while on the go.
+The design may not be as progressive as the to-do app Clear, but Keep makes up for that in its simplicity and efficiency.
+Everything in Keep is presented like a Microsoft (MSFT, Fortune 500) Windows Phone-esque stream of tiles.
+Swiping left or right will archive those notes you no longer need (but don't want to erase entirely).
+At the top of the app is a text entry field that serves as your main point of entry for all new notes.
+And when viewing any specific note, tapping any part of that note (title, body, etc.)
+will allow you to edit it.
+The entire experience is frictionless.
+That said, it's not going to conquer the world quite yet.
+Organization options are limited -- color coding is your only choice, and you can't re-order your notes.
+Sharing with others is mostly limited to email and Google+, and the desktop features are pretty bare bones.
+But that's more a function of it being new, rather than poorly thought out.
+Like most things Google, expect the company to flesh out Keep over time and really turn it into our personal internet junk drawer.
+It's easy to foresee the day the when users will be able to send anything from their Web browser or Maps directly to Keep.
+The prospect of Keep incorporating features of services such as Pinterest or Pocket, or even making it easy to catalog streaming media, could turn it into something big.
+That should scare Evernote.
+Keep is not the reinvention of the wheel in any aspect -- there are a plethora of third-party apps already available for Android.
+But it is a well-exectuted refinement.
+In filling a minor, but important gap in its mobile ecosystem, Google gives the competition one less claim of superiority over Android.

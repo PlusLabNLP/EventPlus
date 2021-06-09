@@ -1,0 +1,2 @@
+sent_pred_id1,sent_pred_id2,b1,e1,b2,e2,pred1_duration,pred2_duration,pred1_text,pred2_text,pred1_dict_idx,pred2_dict_idx
+sample_fig2.txt.output 1 2,sample_fig2.txt.output 2 4,0.0,0.0,0.0,0.0,0,0,feed,been sick for about now,0,1

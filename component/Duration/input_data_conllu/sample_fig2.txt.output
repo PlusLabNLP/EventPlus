@@ -1,0 +1,21 @@
+1	What	what	_	WP	_	3	dep	_	_
+2	to	to	_	TO	_	3	mark	_	_
+3	feed	feed	_	VB	_	0	root	_	_
+4	my	my	_	PRP$	_	5	nmod:poss	_	_
+5	dog	dog	_	NN	_	3	dobj	_	_
+6	after	after	_	IN	_	7	case	_	_
+7	gastroenteritis	gastroenteritis	_	NN	_	3	nmod	_	_
+8	?	?	_	.	_	3	punct	_	_
+
+1	My	my	_	PRP$	_	2	nmod:poss	_	_
+2	dog	dog	_	NN	_	5	nsubj	_	_
+3	has	have	_	VBZ	_	5	aux	_	_
+4	been	be	_	VBN	_	5	cop	_	_
+5	sick	sick	_	JJ	_	0	root	_	_
+6	for	for	_	IN	_	9	case	_	_
+7	about	about	_	IN	_	9	case	_	_
+8	3	3	_	CD	_	9	nummod	_	_
+9	days	day	_	NNS	_	5	nmod	_	_
+10	now	now	_	RB	_	5	advmod	_	_
+11	.	.	_	.	_	5	punct	_	_
+

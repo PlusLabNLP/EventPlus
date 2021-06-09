@@ -1,0 +1,11 @@
+Split	Annotator.ID	Sentence1.ID	Pred1.Span	Pred1.Token	Event1.ID	Sentence2.ID	Pred2.Span	Pred2.Token	Event2.ID	Pred1.Text	Pred1.Lemma	Pred2.Text	Pred2.Lemma	Pred1.Duration	Pred2.Duration	Pred1.Beg	Pred1.End	Pred2.Beg	Pred2.End	Pred1.Duration.Confidence	Pred2.Duration.Confidence	Relation.Confidence	Document.ID
+train	209	en-ud-train.conllu 418	17	17	en-ud-train.conllu 418_17	en-ud-train.conllu 418	18_19	19	en-ud-train.conllu 418_19	think	think	is intentional	intentional	2	0	35 	 41	64 	 65	4.0	4.0	4.0	10
+train	209	en-ud-train.conllu 9490	51	51	en-ud-train.conllu 9490_51	en-ud-train.conllu 9490	53	53	en-ud-train.conllu 9490_53	grey	grey	dark	dark	6	6	0 	 65	0 	 65	4.0	4.0	4.0	189
+train	209	en-ud-train.conllu 7143	8	8	en-ud-train.conllu 7143_8	en-ud-train.conllu 7144	11_12_13_14_15_18_19	14	en-ud-train.conllu 7144_14	employed	employ	be the greatest threats to...	threat	7	7	0 	 81	0 	 81	4.0	4.0	4.0	83
+train	209	en-ud-train.conllu 7786	17	17	en-ud-train.conllu 7786_17	en-ud-train.conllu 7787	4_5_6_7_8_9	9	en-ud-train.conllu 7787_9	getting	get	is a good nano protein...	skimmer	2	10	35 	 44	0 	 100	4.0	4.0	4.0	126
+train	209	en-ud-train.conllu 5729	4	4	en-ud-train.conllu 5729_4	en-ud-train.conllu 5729	36	36	en-ud-train.conllu 5729_36	solicit	solicit	served	serve	2	7	36 	 42	0 	 26	4.0	4.0	4.0	65
+train	508	en-ud-train.conllu 6416	8	8	en-ud-train.conllu 6416_8	en-ud-train.conllu 6416	32_33_34_35_36	35	en-ud-train.conllu 6416_35	switched	switch	being a net source of	source	7	7	21 	 79	40 	 67	2.0	2.0	2.0	77
+train	508	en-ud-train.conllu 11326	32	32	en-ud-train.conllu 11326_32	en-ud-train.conllu 11326	40	40	en-ud-train.conllu 11326_40	go	go	came	come	4	3	28 	 74	68 	 88	2.0	2.0	2.0	439
+train	508	en-ud-train.conllu 11550	1_2_3_4_5_6	5	en-ud-train.conllu 11550_5	en-ud-train.conllu 11551	14	14	en-ud-train.conllu 11551_14	was a very trying time...	time	made	make	4	4	21 	 71	42 	 54	2.0	2.0	2.0	465
+train	508	en-ud-train.conllu 8062	5	5	en-ud-train.conllu 8062_5	en-ud-train.conllu 8062	7	7	en-ud-train.conllu 8062_7	get	get	warm	warm	3	3	15 	 78	43 	 63	2.0	2.0	2.0	141
+train	508	en-ud-train.conllu 12252	25	25	en-ud-train.conllu 12252_25	en-ud-train.conllu 12252	30	30	en-ud-train.conllu 12252_30	show	show	charge	charge	3	2	26 	 58	40 	 51	2.0	2.0	2.0	527

@@ -1,0 +1,66 @@
+start_pt,duration,sent_pred_id,pred_text
+0.22953895,0.23559411,sample_document.txt.output 1 13,was
+0.1616388,0.90549994,sample_document.txt.output 1 4,Keep
+0.287634,0.7549082,sample_document.txt.output 1 8,launched
+1.072766,0.103116445,sample_document.txt.output 10 12,serves
+1.0222178,0.11418431,sample_document.txt.output 10 6,is
+1.06561,0.074647896,sample_document.txt.output 11 2,viewing
+1.1178255,0.07104552,sample_document.txt.output 11 21,allow
+1.1504356,0.050872874,sample_document.txt.output 11 24,edit
+1.0895916,0.07437399,sample_document.txt.output 11 7,tapping
+0.0,1.3020271,sample_document.txt.output 12 4,is frictionless
+0.49332798,0.033563256,sample_document.txt.output 13 1,said
+0.48924226,0.23515902,sample_document.txt.output 13 6,going
+0.32785034,1.1066597,sample_document.txt.output 13 8,conquer
+0.49388248,0.10346455,sample_document.txt.output 14 10,is only choice
+0.57775855,0.0680006,sample_document.txt.output 14 16,re-order
+0.29515114,0.36924908,sample_document.txt.output 14 3,limited
+0.31241438,0.39484847,sample_document.txt.output 15 10,+
+0.41692692,0.27291024,sample_document.txt.output 15 19,are pretty bare bones
+0.12191195,1.6530606,sample_document.txt.output 15 5,limited
+0.3450333,0.27553135,sample_document.txt.output 15 7,email
+0.4190132,0.33701715,sample_document.txt.output 16 14,thought
+0.33446252,0.4187518,sample_document.txt.output 16 5,'s more a function of
+0.33700866,0.42752492,sample_document.txt.output 16 9,being new
+0.68224037,0.13986059,sample_document.txt.output 17 16,turn
+0.47907346,0.23535627,sample_document.txt.output 17 5,expect
+0.6549459,0.18746355,sample_document.txt.output 18 12,be able
+0.7119201,0.13109462,sample_document.txt.output 18 14,send
+0.5940464,0.18792449,sample_document.txt.output 18 2,'s easy
+0.72883064,0.2629165,sample_document.txt.output 18 24,Keep
+0.5958486,0.21551259,sample_document.txt.output 18 4,foresee
+0.6627697,0.3056006,sample_document.txt.output 19 16,making
+0.67700034,0.33953798,sample_document.txt.output 19 18,easy
+0.8993714,0.21139722,sample_document.txt.output 19 25,turn
+0.60749745,0.30814624,sample_document.txt.output 19 3,Keep
+0.61776954,0.30698663,sample_document.txt.output 19 4,incorporating
+0.23025304,0.4327411,sample_document.txt.output 2 11,has
+0.2912727,0.39179614,sample_document.txt.output 2 20,powered
+0.20970988,0.35870302,sample_document.txt.output 2 4,was a glaring hole
+0.33967128,0.18600482,sample_document.txt.output 2 6,considering
+0.9585166,0.3046474,sample_document.txt.output 20 2,scare
+1.0286418,1.1654844,sample_document.txt.output 21 13,are
+1.0180484,0.9873926,sample_document.txt.output 21 4,is not the reinvention of
+1.5583814,0.70114505,sample_document.txt.output 22 5,is a well-exectuted refinement
+1.7318684,0.52950096,sample_document.txt.output 23 1,filling
+1.9559892,0.44548014,sample_document.txt.output 23 14,gives
+0.5044588,0.21667121,sample_document.txt.output 3 16,took
+0.35501373,0.18694507,sample_document.txt.output 3 2,settling
+0.42702043,0.20121588,sample_document.txt.output 3 9,fill
+0.54812557,0.27332816,sample_document.txt.output 4 18,construct
+0.6833602,0.16512632,sample_document.txt.output 4 27,code
+0.5855998,0.3608075,sample_document.txt.output 4 34,well-designed
+0.73807853,0.27333945,sample_document.txt.output 4 37,interface
+0.43750316,0.43180317,sample_document.txt.output 4 6,is n't simply just a...
+0.6779917,0.23474711,sample_document.txt.output 5 12,is also accessible from
+0.75836116,0.044174373,sample_document.txt.output 5 3,log
+0.84418917,0.14313164,sample_document.txt.output 6 16,appear
+0.8906975,0.15871912,sample_document.txt.output 6 27,go
+0.6935278,0.20407178,sample_document.txt.output 6 4,save
+0.71397096,0.23956096,sample_document.txt.output 6 7,working
+0.81361145,0.19291249,sample_document.txt.output 7 14,Keep
+0.9003202,0.19139186,sample_document.txt.output 7 15,makes
+0.5575306,0.497628,sample_document.txt.output 7 6,be as progressive as
+0.70687485,0.3683506,sample_document.txt.output 8 2,Keep
+0.7990323,0.26095173,sample_document.txt.output 8 4,presented
+0.96460164,0.116692804,sample_document.txt.output 9 0,Swiping
