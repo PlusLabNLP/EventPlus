@@ -36,13 +36,22 @@ For `component/Duration` module, download `scripts` zip file [[Link]](https://dr
 
 For `component/NegationDetection` module, download the trained model [[Link]](https://drive.google.com/file/d/1FLAHrWy3eF23Kb7Ql4k_f1a5lCQ5m1L0/view?usp=sharing), unzip and place is under `component/NegationDetection/models`
 
-3 - Application 1: Raw Text Annotation. The input is a multiple line raw text file, and the output pickle and json file will be saved to designated paths
+3 - In background: Run REST API for event duration detection module for faster processing
+```
+(optional) tmux new -s duration_rest_api
+conda activate event-pipeline
+cd component/REST_service
+python main.py
+(optional) exit tmux window
+```
+
+4 - Application 1: Raw Text Annotation. The input is a multiple line raw text file, and the output pickle and json file will be saved to designated paths
 ```
 cd YOUR_PREFERRED_PATH/project
 python APIs/test_on_raw_text.py -data YOUR_RAW_TEXT_FILE -save_path SAVE_PICKLE_PATH -save_path_json SAVE_JSON_PATH -negation_detection
 ```
 
-4 - Application 2: Web App for Interaction and Visualization. A web app will be started and user can input a piece of text and get annotation result and visualization.
+5 - Application 2: Web App for Interaction and Visualization. A web app will be started and user can input a piece of text and get annotation result and visualization.
 ```
 cd YOUR_PREFERRED_PATH/project
 tmux new -s serve
@@ -81,7 +90,7 @@ cd component/REST_service
 python main.py
 (optional) exit tmux window
 
-# To use it for raw text annotation or web app, please follow step 3 and 4 in quick start section.
+# To use it for raw text annotation or web app, please follow step 4 and 5 in quick start section.
 ```
 
 ## Deployment as Web Service
