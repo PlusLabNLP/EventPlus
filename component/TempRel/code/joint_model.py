@@ -568,13 +568,12 @@ class NNClassifier(nn.Module):
 class EventEvaluator:
     def __init__(self, model):
         self.model = model
+        self.tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+        self.bert_model = BertModel.from_pretrained('bert-base-uncased')
 
     def evaluate(self, raw_text, args):
         # load test data first since it needs to be executed twice in this function
-
-        tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-        bert_model = BertModel.from_pretrained('bert-base-uncased')
-        featurized_data = featurize_raw_data(raw_text, tokenizer, bert_model, args)
+        featurized_data = featurize_raw_data(raw_text, self.tokenizer, self.bert_model, args)
         preds, loss, true_labels, docs, pairs, ent_f1, nopred_rels, event_heads\
             = self.model.predict(self.model.model, featurized_data, args, test = True, gold = args.eval_gold)
 
