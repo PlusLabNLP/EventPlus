@@ -30,7 +30,9 @@ pip install git+https://github.com/hltcoe/PredPatt.git
 
 2 - Download trained model for components
 
-For `component/BETTER` module, download the trained model [[Link]](https://drive.google.com/file/d/19_W6azeG5KRQxLDICswqwIFX0QOjxh_L/view?usp=sharing), unzip and place it under `component/BETTER/joint/worked_model_ace`. Also:
+For `component/BETTER` module, download the trained model [[Link]](https://drive.google.com/file/d/19_W6azeG5KRQxLDICswqwIFX0QOjxh_L/view?usp=sharing), unzip and place it under `component/BETTER/joint/worked_model_ace`.
+
+For `component/TempRel` module, download the trained model [[Link]](https://drive.google.com/file/d/1vyeAqtDmBp98NCuEMCFvrnJ8oBuNuMr3/view?usp=sharing), unzip and place it under `component/TempRel/models`.
 
 For `component/Duration` module, download `scripts` zip file [[Link]](https://drive.google.com/file/d/1s1uLcQjjFdfcto3BZ3aRi8pPzLf9KELe/view?usp=sharing), unzip and place it under `component/Duration/scripts`.
 
